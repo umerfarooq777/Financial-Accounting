@@ -6,6 +6,7 @@ import { useCollection } from "../../hooks/useCollection";
 
 function FinancialStatementMainComponent() {
   const { documents, error } = useCollection("generalEntry");
+  
   // const { dispatch, rev, exp, netInc } = useAuthContext();
 
   const allTypesData = () => {
